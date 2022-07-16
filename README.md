@@ -1,6 +1,6 @@
 # Call2428
 
-<p>This is a small gallery photos by <a href="https://joaquinmetayer.github.io/personalweb/index.html" target="_blank"><b>Joaquin Metayer</b></a> in year 2017 for my exclusive working in fashion events as a photographer in the city of Cordoba, Argentina.</p>
+<p>This is a small gallery photos by me in year 2017 for my exclusive working in fashion events as a photographer in the city of Cordoba, Argentina.</p>
         <p>More photos of this style in <a href="https://joaquinmetayer.github.io/laprida55" target="_blank">Laprida 255</a>.</p>
         <p>Street photos on <a href="https://joaquinmetayer.github.io/streetph" target="_blank">Street Photo Archives.</a></p>
         
