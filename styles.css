@@ -7,18 +7,20 @@ body {
     background-color: #000;
     color: #fff;
     font-size: 1.1em;
+    scroll-behavior: smooth;
 }
 
 #logo{
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 40vh;
 }
 
 
 #description a, .data a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-style: italic;
 }
 #description{
     object-fit:contain;
@@ -42,7 +44,7 @@ body {
     object-fit:contain;
     padding: 1em;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     #gallery img {
       width: 100%;
   }
