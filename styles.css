@@ -6,19 +6,17 @@ body {
     font-weight: 5px;
     background-color: #000;
     color: #fff;
-    font-size: 1.1em;
+    font-size: 1.2em;
     scroll-behavior: smooth;
 }
 
 #logo{
     display: flex;
     justify-content: center;
-    height: 40vh;
+    height: 30vh;
 }
-
-
 #description a, .data a{
-    text-decoration: none;
+
     color: rgb(255, 255, 255);
     font-style: italic;
 }
@@ -44,6 +42,17 @@ body {
     object-fit:contain;
     padding: 1em;
 }
+.playbutton{
+    padding: 0.2em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    background-color: #000;
+    border-color: #000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
 @media (max-width: 900px) {
     #gallery img {
       width: 100%;
@@ -52,7 +61,7 @@ body {
       width: 100%;
 
   }
-  #logo{
-    width: 100%;
+    #logo{
+      width: 100%;
   }
 }

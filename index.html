@@ -19,22 +19,35 @@
         <div id="logo">
           <img src="./calllogo.png">
         </div>
-        <h3><a href="https://joaquinmetayer.github.io/personalweb/about.html" target="_blank">About</a><br>
-            <a href="https://joaquinmetayer.github.io/personalweb/contact.html" target="_blank">Contact</a>
+        <div>
+          <button onclick="playAudio()" type="button" class="playbutton" >Play</button>
+          <button onclick="pauseAudio()" type="button" class="playbutton">Pause</button> 
+        </div>
+        <h3><a href="https://joaquinmetayer.com/pages/about.html" target="_blank">About</a><br>
+            <a href="https://joaquinmetayer.com/pages/contact.html" target="_blank">Contact</a>
         </h3>
-        <p>This is a small gallery photos by <a href="https://joaquinmetayer.github.io/personalweb/index.html" target="_blank"><b>Joaquin Metayer</b></a> in year 2017 for my exclusive working in fashion events as a photographer in the city of Cordoba, Argentina.</p>
-        <p>More photos of this style in <a href="https://joaquinmetayer.github.io/laprida55" target="_blank">Laprida 255</a>.</p>
+        
+        <p>This is a small gallery photos by <a href="https://joaquinmetayer.com" target="_blank"><b>Joaquin Metayer</b></a> in year 2017 for my exclusive working in fashion events as a photographer in the city of Cordoba, Argentina.</p>
+        <p>More photos of this style in <a href="https://joaquinmetayer.github.io/laprida255" target="_blank">Laprida 255</a>.</p>
         <p>Street photos on <a href="https://joaquinmetayer.github.io/streetph" target="_blank">Street Photo Archives.</a></p>
       </div>
       <img src="./fotos/242800025.jpg"/>
       <img src="./fotos/242800038.jpg"/>
       <img src="./fotos/242800001.jpg"/>
+      <div>
+        <button onclick="playAudio()" type="button" class="playbutton" >Play</button>
+        <button onclick="pauseAudio()" type="button" class="playbutton">Pause</button> 
+      </div>
       <img src="./fotos/242800002.jpg"/>
       <img src="./fotos/242800039.jpg"/>
       <img src="./fotos/242800004.jpg"/>
       <img src="./fotos/242800041.jpg"/>
       <img src="./fotos/242800006.jpg"/>
       <img src="./fotos/242800007.jpg"/>
+      <div>
+        <button onclick="playAudio()" type="button" class="playbutton" >Play</button>
+        <button onclick="pauseAudio()" type="button" class="playbutton">Pause</button> 
+      </div>
       <img src="./fotos/242800008.jpg"/>
       <img src="./fotos/242800009.jpg"/>
       <img src="./fotos/242800011.jpg"/>
@@ -46,6 +59,10 @@
       <img src="./fotos/242800026.jpg"/>
       <img src="./fotos/242800027.jpg"/>
       <img src="./fotos/242800032.jpg"/>
+      <div>
+        <button onclick="playAudio()" type="button" class="playbutton" >Play</button>
+        <button onclick="pauseAudio()" type="button" class="playbutton">Pause</button> 
+      </div>
       <img src="./fotos/242800033.jpg"/>
       <img src="./fotos/242800030.jpg"/>
       <img src="./fotos/242800031.jpg"/>
@@ -55,10 +72,19 @@
       <img src="./fotos/242800019.jpg"/>
       <div class="data">
         <p>Thanks for view!</p>
-        <p>Photos by <a href="https://joaquinmetayer.github.io/personalweb/contact.html" target="_blank">Joaquin Metayer.</a></p>
         <p><a href="#gallery">Go up.</a></p>
       </div>
-
-
   </body>
+  <audio id="myAudio">
+    <source src="call2428song.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+    var x = document.getElementById("myAudio"); 
+    function playAudio() { 
+      x.play(); 
+    } 
+    function pauseAudio() { 
+      x.pause(); 
+    } 
+    </script>
 </html>
