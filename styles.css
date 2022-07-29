@@ -9,16 +9,13 @@ body {
     font-size: 1.2em;
     scroll-behavior: smooth;
 }
-
 #logo{
     display: flex;
     justify-content: center;
     height: 30vh;
 }
 #description a, .data a{
-
     color: rgb(255, 255, 255);
-    font-style: italic;
 }
 #description{
     object-fit:contain;
@@ -43,23 +40,17 @@ body {
     padding: 1em;
 }
 .playbutton{
-    padding: 0.2em;
     font-style: normal;
     font-weight: bold;
-    font-size: 0.6em;
-    background-color: #000;
-    border-color: #000;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
+    font-size: 0.75em;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 @media (max-width: 900px) {
     #gallery img {
       width: 100%;
   }
     #description{
       width: 100%;
-
   }
     #logo{
       width: 100%;
